@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Bill.swift
 //  C0753140_MID_TERM_MAD3004
 //
 //  Created by MacStudent on 2019-06-20.
@@ -7,4 +7,3 @@
 //
 
 import Foundation
-
