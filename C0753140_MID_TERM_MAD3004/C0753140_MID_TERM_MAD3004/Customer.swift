@@ -8,7 +8,8 @@
 
 import Foundation
 
-class Customer{
+class Customer: IDisplay{
+    
     
     // declaring customer class variables
     
@@ -31,4 +32,12 @@ class Customer{
         self.customerEmailID = customerEmailID
     }
 
+    func printDetails() {
+        print("Customer ID is : \(String(describing: self.customerId))")
+        print("First Name of Customer is : \(self.customerFirstName)")
+        print("Last Name of Customer is : \(self.customerLastName)")
+        print("Customer full Name is : \(self.customerFullName)")
+        print("Customer Email ID is : \(self.customerEmailID)")
+    }
+    
 }
