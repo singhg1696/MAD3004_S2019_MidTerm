@@ -8,3 +8,5 @@
 
 import Foundation
 
+//CREATING PRODUCT OBJECTS
+

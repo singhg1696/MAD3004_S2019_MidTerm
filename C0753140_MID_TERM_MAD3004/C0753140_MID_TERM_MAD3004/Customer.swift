@@ -20,5 +20,15 @@ class Customer{
     
     // BILL dictionary created
     private static var dictBill=[Int:Bill]()
+    
+    // Initialising the customer class variables
+    
+    init(customerId: Int,customerFirstName: String,customerLastName : String,customerFullName : String, customerEmailID: String) {
+        self.customerId = customerId
+        self.customerFirstName = customerFirstName
+        self.customerLastName = customerLastName
+        self.customerFullName = customerFullName
+        self.customerEmailID = customerEmailID
+    }
 
 }
