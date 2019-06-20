@@ -12,8 +12,8 @@ class Internet: Bill{
     
     //declaring Internet Variables
     
-    var provider_name : String
-    var gigabyte_used : Double
+    var providerName : String
+    var gigabyteUsed : Double
     
     //Initializing the variables
 
