@@ -21,4 +21,11 @@ class Mobile: Bill {
         super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
     }
 
+    override func printDetails() {
+        print("Bill Id is : \(String(describing: self.id_bill))")
+        print("Date of Bill is : \(String(describing: self.date_of_bill))")
+        print("Total Bill Amount is : \(String(describing: self.total_bill_amount))")
+        print("Mobile Manufacturer Name is : \(self.mobileManufacturerName)")
+        print("Plan Name : \(self.planName)")
+    }
 }
