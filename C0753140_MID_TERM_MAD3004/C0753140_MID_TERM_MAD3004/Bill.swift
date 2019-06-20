@@ -8,7 +8,9 @@
 
 import Foundation
 
-class Bill {
+class Bill : IDisplay {
+   
+    
     // declaring variables
     let id_bill: Int
     var date_of_bill: Date
@@ -22,5 +24,11 @@ class Bill {
         self.date_of_bill = date_of_bill
         self.total_bill_amount = total_bill_amount
     }
-    	
+    
+    func printDetails() {
+            print("Bill Id is : \(String(describing: self.id_bill))")
+            print("Date of Bill is : \(self.date_of_bill)")
+            print("Total Bill Amount is : \(self.total_bill_amount)")
+    }
+    
 }
