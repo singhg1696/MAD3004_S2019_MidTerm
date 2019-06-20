@@ -13,6 +13,7 @@
 		9B420CDC22BC44D3000D166E /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDB22BC44D3000D166E /* Internet.swift */; };
 		9B420CDE22BC4666000D166E /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDD22BC4666000D166E /* Hydro.swift */; };
 		9B420CE022BC4676000D166E /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDF22BC4676000D166E /* Mobile.swift */; };
+		9B420CE222BC4902000D166E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CE122BC4902000D166E /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		9B420CDB22BC44D3000D166E /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		9B420CDD22BC4666000D166E /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B420CDF22BC4676000D166E /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B420CE122BC4902000D166E /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				9B420CDB22BC44D3000D166E /* Internet.swift */,
 				9B420CDD22BC4666000D166E /* Hydro.swift */,
 				9B420CDF22BC4676000D166E /* Mobile.swift */,
+				9B420CE122BC4902000D166E /* Customer.swift */,
 			);
 			path = C0753140_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B420CDE22BC4666000D166E /* Hydro.swift in Sources */,
+				9B420CE222BC4902000D166E /* Customer.swift in Sources */,
 				9B420CDA22BC440A000D166E /* Extension_Date.swift in Sources */,
 				9B420CD822BC43B3000D166E /* Bill.swift in Sources */,
 				9B420CE022BC4676000D166E /* Mobile.swift in Sources */,
