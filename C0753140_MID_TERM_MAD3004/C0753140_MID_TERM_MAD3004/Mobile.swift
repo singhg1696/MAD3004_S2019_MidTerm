@@ -7,3 +7,8 @@
 //
 
 import Foundation
+class Mobile: Bill {
+    // declaring mobile class variables
+    var mobileManufacturerName : String
+    var planName : String
+}
