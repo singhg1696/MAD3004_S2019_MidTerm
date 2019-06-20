@@ -10,6 +10,7 @@
 		9B420CCD22BC3CE3000D166E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CCC22BC3CE3000D166E /* main.swift */; };
 		9B420CD822BC43B3000D166E /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CD722BC43B3000D166E /* Bill.swift */; };
 		9B420CDA22BC440A000D166E /* Extension_Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CD922BC440A000D166E /* Extension_Date.swift */; };
+		9B420CDC22BC44D3000D166E /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDB22BC44D3000D166E /* Internet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		9B420CCC22BC3CE3000D166E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B420CD722BC43B3000D166E /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B420CD922BC440A000D166E /* Extension_Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_Date.swift; sourceTree = "<group>"; };
+		9B420CDB22BC44D3000D166E /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				9B420CCC22BC3CE3000D166E /* main.swift */,
 				9B420CD322BC4370000D166E /* Extensions */,
 				9B420CD722BC43B3000D166E /* Bill.swift */,
+				9B420CDB22BC44D3000D166E /* Internet.swift */,
 			);
 			path = C0753140_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				9B420CDA22BC440A000D166E /* Extension_Date.swift in Sources */,
 				9B420CD822BC43B3000D166E /* Bill.swift in Sources */,
+				9B420CDC22BC44D3000D166E /* Internet.swift in Sources */,
 				9B420CCD22BC3CE3000D166E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

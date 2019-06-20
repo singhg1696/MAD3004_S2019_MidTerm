@@ -22,5 +22,5 @@ class Bill {
         self.date_of_bill = date_of_bill
         self.total_bill_amount = total_bill_amount
     }
-    
+    	
 }
