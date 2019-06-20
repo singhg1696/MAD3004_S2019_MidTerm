@@ -9,4 +9,6 @@
 import Foundation
 
 protocol IDisplay {
+    func printDetails()
+
 }
