@@ -20,4 +20,12 @@ class Hydro:Bill{
         self.unitConsumed = unitConsumed
         super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
     }
+    
+    override func printDetails() {
+        print("Bill Id is : \(String(describing: self.id_bill))")
+        print("Date of Bill is : \(String(describing: self.date_of_bill))")
+        print("Total Bill Amount is : \(String(describing: self.total_bill_amount))")
+        print("Agency Name is : \(self.agencyName)")
+        print("Unit Consumed : \(String(describing: self.unitConsumed))")
+    }
 }
