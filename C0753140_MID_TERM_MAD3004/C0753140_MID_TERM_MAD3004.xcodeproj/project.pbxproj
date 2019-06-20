@@ -14,6 +14,7 @@
 		9B420CDE22BC4666000D166E /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDD22BC4666000D166E /* Hydro.swift */; };
 		9B420CE022BC4676000D166E /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CDF22BC4676000D166E /* Mobile.swift */; };
 		9B420CE222BC4902000D166E /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CE122BC4902000D166E /* Customer.swift */; };
+		9B420CE522BC4A96000D166E /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B420CE422BC4A96000D166E /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		9B420CDD22BC4666000D166E /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B420CDF22BC4676000D166E /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
 		9B420CE122BC4902000D166E /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9B420CE422BC4A96000D166E /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		9B420CCB22BC3CE3000D166E /* C0753140_MID_TERM_MAD3004 */ = {
 			isa = PBXGroup;
 			children = (
+				9B420CE322BC4A76000D166E /* Protocols */,
 				9B420CD322BC4370000D166E /* Extensions */,
 				9B420CCC22BC3CE3000D166E /* main.swift */,
 				9B420CD722BC43B3000D166E /* Bill.swift */,
@@ -86,6 +89,14 @@
 				9B420CD922BC440A000D166E /* Extension_Date.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B420CE322BC4A76000D166E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9B420CE422BC4A96000D166E /* IDisplay.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B420CE522BC4A96000D166E /* IDisplay.swift in Sources */,
 				9B420CDE22BC4666000D166E /* Hydro.swift in Sources */,
 				9B420CE222BC4902000D166E /* Customer.swift in Sources */,
 				9B420CDA22BC440A000D166E /* Extension_Date.swift in Sources */,
