@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Internet: Bill{
+    
+    //declaring Internet Variables
+    
+    var provider_name : String
+    var gigabyte_used : Double
+    
+}
