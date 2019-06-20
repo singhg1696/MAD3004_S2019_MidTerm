@@ -18,4 +18,7 @@ class Customer{
     var customerFullName : String
     var customerEmailID : String
     
+    // BILL dictionary created
+    private static var dictBill=[Int:Bill]()
+
 }
