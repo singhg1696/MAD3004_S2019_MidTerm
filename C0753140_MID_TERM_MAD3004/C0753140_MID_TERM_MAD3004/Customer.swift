@@ -10,4 +10,12 @@ import Foundation
 
 class Customer{
     
+    // declaring customer class variables
+    
+    let customerId : Int
+    var customerFirstName : String
+    var customerLastName : String
+    var customerFullName : String
+    var customerEmailID : String
+    
 }
