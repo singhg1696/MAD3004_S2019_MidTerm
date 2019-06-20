@@ -15,4 +15,12 @@ class Internet: Bill{
     var provider_name : String
     var gigabyte_used : Double
     
+    //Initializing the variables
+
+    init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float ,provider_name: String,gigabyte_used:Double) {
+        self.provider_name = provider_name
+        self.gigabyte_used = gigabyte_used
+        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
+    }
+    
 }
