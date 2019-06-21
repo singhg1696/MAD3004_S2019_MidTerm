@@ -17,10 +17,10 @@ class Internet: Bill{
     
     //Initializing the variables
 
-    init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float ,provider_name: String,gigabyte_used:Double) {
+    init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float ,provider_name: String,gigabyte_used:Double,billType: String,billAmount: Int) {
         self.providerName = provider_name
         self.gigabyteUsed = gigabyte_used
-        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
+        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>, billType: <#T##String#>, billAmount: <#Int#>)
     }
     
     // overridden function of Bill class

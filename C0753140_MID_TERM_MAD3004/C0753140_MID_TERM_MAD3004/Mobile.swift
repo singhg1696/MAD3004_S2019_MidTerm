@@ -14,11 +14,11 @@ class Mobile: Bill {
     
     //Initializing the Mobile class variables
     
-    init(id_bill: Int, date_of_bill: Date, total_bill_amount: Float,mobileManufacturerName: String,planName: String) {
+    init(id_bill: Int, date_of_bill: Date, total_bill_amount: Float,mobileManufacturerName: String,planName: String,billType: String, billAmount: Int) {
         
         self.mobileManufacturerName = mobileManufacturerName
         self.planName = planName
-        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
+        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>, billType: <#T##String#>, billAmount: <#Int#>)
     }
 
     override func printDetails() {

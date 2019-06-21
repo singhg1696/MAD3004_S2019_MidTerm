@@ -15,10 +15,10 @@ class Hydro:Bill{
     
     //Initializing the Hydro class variables
 
-    init(id_bill: Int, date_of_bill: Date, total_bill_amount: Float,agencyName: String,unitConsumed: Double) {
+    init(id_bill: Int, date_of_bill: Date, total_bill_amount: Float,agencyName: String,unitConsumed: Double,billType: String,billAmount: Int) {
         self.agencyName = agencyName
         self.unitConsumed = unitConsumed
-        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>)
+        super.init(id_bill: <#T##Int#>, date_of_bill: <#T##Date#>, total_bill_amount: <#T##Float#>, billType: <#T##String#>, billAmount: <#Int#>)
     }
     
     override func printDetails() {

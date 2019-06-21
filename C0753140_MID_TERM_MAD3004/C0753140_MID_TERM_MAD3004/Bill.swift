@@ -13,22 +13,58 @@ class Bill : IDisplay {
     
     // declaring variables
     let id_bill: Int
-    var date_of_bill: Date
+    // Customer array created
+    lazy var customerArray: [Customer] = [Customer]()
+    var date_of_bill: Date = Date()
+    var billType: String
+    var billAmount: Int
     var total_bill_amount: Float/*{
-        //  bill_amount:Float =0.0
+        var billAmount: Float = 0.0
+        for i in customerArray{
+            billAmount = billAmount
+        }
         
     }*/
     
-    init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float ) {
+    init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float,billType: String,billAmount: Int ) {
         self.id_bill = id_bill
         self.date_of_bill = date_of_bill
         self.total_bill_amount = total_bill_amount
+        self.billType = billType
+        self.billAmount = billAmount
     }
     
     func printDetails() {
-            print("Bill Id is : \(String(describing: self.id_bill))")
-            print("Date of Bill is : \(String(describing: self.date_of_bill))")
-            print("Total Bill Amount is : \(String(describing: self.total_bill_amount))")
+        
+        for item in customerArray{
+            print("Customer ID is : \(String(describing: item.customerId))")
+            print("First Name of Customer is : \(item.customerFirstName)")
+            print("Last Name of Customer is : \(item.customerLastName)")
+            print("Customer full Name is : \(item.customerFullName)")
+            print("Customer Email ID is : \(item.customerEmailID)")
+
+        }
+        print("             ---- Bill Information  ----")
+        print("             *****************************")
+        print("             Bill Id : \(String(describing: self.id_bill))")
+        print("             Bill Date: \(String(describing: self.date_of_bill.getForamttedDate()))")
+        print("             Bill Type : \(self.billType)")
     }
     
+    
+    /*
+     
+     print("************************* ORDER DETAILS *********************")
+     print("Order Id is : \(String(describing: self.orderId!))")
+     print("Order Date is : \(self.orderDate.getForamttedDate())")
+     print("******************** PRODUCTS DETAILS *******************")
+     
+     //Some formating required to display
+     print("MANUFACTURER ID","MANUFACTURER NAME","PRODUCT ID"," PRODUCT NAME","PRICE","QUANTITY")
+     for product in self.arrayProducts {
+     product.printDetails()
+     }
+     print("****************************************************************************")
+     print("Order Total is : \(self.orderTotal.currency())\n\n\n")
+ */
 }

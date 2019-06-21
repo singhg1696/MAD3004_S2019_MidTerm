@@ -10,3 +10,4 @@ import Foundation
 
 //CREATING PRODUCT OBJECTS
 
+var customerFirst:Customer = Customer.init(customerId: <#T##Int#>, customerFirstName: <#T##String#>, customerLastName: <#T##String#>, customerFullName: <#T##String#>, customerEmailID: <#T##String#>)
