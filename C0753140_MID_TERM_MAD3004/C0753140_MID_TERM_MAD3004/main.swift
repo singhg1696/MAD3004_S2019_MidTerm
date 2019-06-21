@@ -10,4 +10,8 @@ import Foundation
 
 //CREATING PRODUCT OBJECTS
 
-var customerFirst:Customer = Customer.init(customerId: <#T##Int#>, customerFirstName: <#T##String#>, customerLastName: <#T##String#>, customerFullName: <#T##String#>, customerEmailID: <#T##String#>)
+var bill1:Bill = Bill.init(id_bill: 1, date_of_bill: <#T##Date#>(), total_bill_amount: 230.34, billType: "Hydro", billAmount: 234.5)
+var bill2:Bill = Bill.init(id_bill: 2, date_of_bill: Date(), total_bill_amount: 230.34, billType: "Internet", billAmount: 234.5)
+var bill3:Bill = Bill.init(id_bill: 3, date_of_bill: Date(), total_bill_amount: 230.34, billType: "Hydro", billAmount: 234.5)
+var bill4:Bill = Bill.init(id_bill: 4, date_of_bill: <#T##Date#>(), total_bill_amount: 230.34, billType: "Hydro", billAmount: 234.5)
+var bill5:Bill = Bill.init(id_bill: 5, date_of_bill: <#T##Date#>(), total_bill_amount: 230.34, billType: "Hydro", billAmount: 234.5)

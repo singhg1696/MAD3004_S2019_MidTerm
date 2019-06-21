@@ -17,38 +17,41 @@ class Bill : IDisplay {
     lazy var customerArray: [Customer] = [Customer]()
     var date_of_bill: Date = Date()
     var billType: String
-    var billAmount: Int
-    var total_bill_amount: Float/*{
-        var billAmount: Float = 0.0
+    var billAmount: Float
+    var total_bill_amount: Float{
+        billAmount = 0.0
         for i in customerArray{
-            billAmount = billAmount
+            billAmount = billAmount * Float((i.customerId))
         }
         
-    }*/
+    }
     
     init(id_bill: Int,date_of_bill: Date,total_bill_amount: Float,billType: String,billAmount: Int ) {
         self.id_bill = id_bill
         self.date_of_bill = date_of_bill
-        self.total_bill_amount = total_bill_amount
+        //self.total_bill_amount = total_bill_amount
         self.billType = billType
-        self.billAmount = billAmount
+        self.billAmount = Float(billAmount)
     }
     
     func printDetails() {
         
-        for item in customerArray{
-            print("Customer ID is : \(String(describing: item.customerId))")
-            print("First Name of Customer is : \(item.customerFirstName)")
-            print("Last Name of Customer is : \(item.customerLastName)")
-            print("Customer full Name is : \(item.customerFullName)")
-            print("Customer Email ID is : \(item.customerEmailID)")
+     /*   for item in customerArray{
+           
+            item.printDetails()
 
-        }
+        }*/
         print("             ---- Bill Information  ----")
         print("             *****************************")
         print("             Bill Id : \(String(describing: self.id_bill))")
         print("             Bill Date: \(String(describing: self.date_of_bill.getForamttedDate()))")
         print("             Bill Type : \(self.billType)")
+        print("             Bill Amount : \(String(describing:self.billAmount.currency()))")
+        
+        print("             *****************************")
+        print("Total Bill :\(self.total_bill_amount.currency())")
+        print("             *****************************")
+
     }
     
     
